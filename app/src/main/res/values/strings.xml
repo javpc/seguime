@@ -1,0 +1,303 @@
+<resources>
+	<string name="app_name">Seguime</string>
+
+	<string name="traducidopor"></string>
+
+
+	<string name="menu_abrir">Menú</string>
+	<string name="menu_cerrar">Cerrar Menú</string>
+
+	<string name="bloquear">Bloquear</string>
+	<string name="desbloquear">Desbloquear</string>
+
+	<string name="servidor">Servidor</string>
+	<string name="usuario">Usuario</string>
+	<string name="clave">Clave</string>
+	<string name="intervalo_inactividad">Intervalo de Inactividad (en segundos)</string>
+	<string name="intervalo_actividad">Intervalo de Actividad (en segundos)</string>
+	<string name="intervalo_internet">Intervalo entre conexiones a internet</string>
+	<string name="limite_coordenadas">Límite de coordenadas por intervalo</string>
+	<string name="sms">SMS</string>
+	<string name="id_telegram">Chat_ID Telegram (17#####...) Consulta el bot</string>
+	<string name="rastreo">Rastreo (Envía Mensajes)</string>
+	<string name="telegram_bot">Bot de Telegram</string>
+	<string name="iniciarConElSistema">Iniciar con el sistema</string>
+	<string name="activarconpantalla">Iniciar actividad al encender la pantalla</string>
+	<string name="enviarInfo">Enviar información de conexión</string>
+	<string name="conectarseRedesAbiertas">Conectarse a redes abiertas (Requiere aplicación WiFI Automágico)</string>
+	<string name="permitirConfigurarSMS">Permitir configurar SMS desde el servidor</string>
+	<string name="permitirActivar">Permitir activar la aplicación desde el servidor (Requiere intervalo de conexión a internet)</string>
+	<string name="permitirActivarSMS">Activar modo rastreo al recibir SMS con la palabra: Seguime</string>
+
+	<string name="opcionesDeRastreo">Las siguientes opciones se activarán cuando el modo de rastreo esté activo</string>
+	<string name="enviarFotografias">Enviar fotografías (Requiere aplicación Cámara Espía)</string>
+
+	<string name="zona_horaria_servidor">Zona horaria del servidor</string>
+
+	<string name="errorValidacion">Hay un error con los datos ingresados</string>
+
+	<string name="borrar_registros">Eliminar registros</string>
+
+	<string name="espere">Por favor espere...</string>
+
+	<string name="permitir_activar_boton_panico">Permitir activación </string>
+
+	<string name="boton_de_panico">Botón de pánico</string>
+	<string name="txt_ayuda_panico">Estas opciones configura la manera de actuar cuando se activa el botón de panico Ripple</string>
+
+	<string name="txt_opciones_ayuda_aplicaciones">Estas opciones configura aplicaciones externas.</string>
+	<string name="recibirRutera">Recibir coordenadas de Rutera</string>
+
+	<string name="sesion_clavedesigual">Las claves NO coinciden</string>
+	<string name="sesion_clavecorta">Las claves es muy corta</string>
+	<string name="sesion_usuariocorto">El nombre de usuario es muy corto</string>
+	<string name="sesion_sinservidor">Debe especificar un servidor</string>
+
+	<string name="cerrarsesion_mensajeadvertencia">Eliminará todos los datos. ¿Está seguro?</string>
+
+
+	<string name="latitud">Latitud</string>
+	<string name="longitud">Longitud</string>
+	<string name="fechahora">Fecha y Hora</string>
+	<string name="fecha">Fecha</string>
+	<string name="hora">Hora</string>
+	<string name="infoextra">Información Extra</string>
+
+	<string name="contactos">Contactos</string>
+
+
+	<string name="configuracion">Configuración</string>
+	<string name="opciones">Opciones</string>
+	<string name="guardar">Guardar</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="editar">Editar</string>
+	<string name="registros">Registros</string>
+	<string name="cerrar_sesion">Cerrar Sesión</string>
+	<string name="salir">Salir</string>
+
+	<string name="velocidad">Velocidad</string>
+
+	<string name="registros_coordenadas">Registros de Coordenadas</string>
+	<string name="registros_imagenes">Registros de Imágenes</string>
+
+
+	<string name="txt_bloqueado_alarma">No se puede detener el servicio cuando hay una alarma activada</string>
+	<string name="alarma">Alarma (Mensaje de Alerta)</string>
+	<string name="alarmamensaje">En este momento puede que necesite ayuda, contáctate conmigo urgente</string>
+	<string name="iniciar">Iniciar</string>
+	<string name="detener">Detener</string>
+	<string name="mensajealerta">Mensaje de Alerta</string>
+
+	<string name="minuto">Minuto</string>
+	<string name="segundo">Segundo</string>
+
+	<string name="principal_alarma">La alarma activada</string>
+	<string name="principal_rastreo">El Rastreador está Activado</string>
+	<string name="principal_aplicacion">La aplicación está activada</string>
+	<string name="principal_internet">Hay una conexión a internet</string>
+	<string name="principal_alarmaservidor">Hay una copia de la alarma en el servidor</string>
+
+
+
+	<string name="txt_servicio_activo">¡Bien! La aplicación está Activada :-)</string>
+	<string name="txt_servicio_inactivo">La aplicación está desactivada, pulsá el botón para activarla</string>
+	<string name="txt_bloqueado">En este momento la aplicación está bloqueada</string>
+
+	<string name="activar_aplicacion">¡Seguime!</string>
+	<string name="desactivar_aplicacion">Seguime</string>
+
+
+	<string name="cuentaregresiva">Cuenta Regresiva</string>
+
+	<string name="ayuda">Ayuda</string>
+	<string name="cerrar">Cerrar</string>
+
+
+
+
+
+
+	<string name="iniciarsesion">Iniciar Sesión</string>
+	<string name="registrarse">Registrarse</string>
+	<string name="repetirclave">Repita la clave (NO USAR claves reales)</string>
+	<string name="ssl">Conexión segura SSL</string>
+
+
+	<string name="registrarAplicacion">Registrar Versión</string>
+	<string name="nombre">Nombre</string>
+	<string name="versionRegistrada">Versión Registrada</string>
+	<string name="claveIncorrecta">Clave Incorrecta</string>
+	<string name="requiereregistro">Requiere registro GRATUITO, visite el sitio web</string>
+	<string name="txt_registrodeversion">El registro es GRATUITO, visite el sitio web y consiga su clave, no requiere información personal</string>
+
+	<string name="requieredonacion">Está usando una versión de demostración, visite el sitio en Internet.</string>
+
+
+	<string name="conectando">Conectando...</string>
+	<string name="errorconexion">Error en la conexión</string>
+	<string name="enviando">Enviando datos....</string>
+	<string name="recibiendo">Recibiendo datos...</string>
+	<string name="conexionfinalizada">Conexión finalizada.</string>
+
+
+
+
+	<string name="presentacion_dispositivo">Encontrá tu dispositivo</string>
+	<string name="presentacion_servidor">Usá tu propio Servidor</string>
+	<string name="presentacion_alerta">Enviá mensajes de alerta</string>
+	<string name="presentacion_remoto">Configurá la aplicación de forma remota</string>
+
+
+
+	<string name="txt_ayuda_descripcion">
+        Seguime te permite rastrear tu dispositivo,
+		recolecta información del GPS y la almacena para luego poder enviarlas a tu servidor.
+		Desde el servidor se puede ver los registros en un mapa y ver donde está (o estuvo) el dispositivo.
+		El servidor puede ser el de un amigo, familiar o el tuyo,
+		podes montar tu propio servidor para mayor privacidad de tus datos.
+		Además incluye un temporizador que te permite programar en que momento la aplicación activará su modo de rastreo
+		y adicionalmente enviar un mensaje de ayuda.
+		Cuando la aplicación está en modo de rastreo enviara por SMS o Telegram mensajes con la ubicación.
+    </string>
+
+	<string name="txt_advertencia_proyecto">
+		Esto es un proyecto, no es (ni pretende ser) una aplicación de seguridad,
+		es solo para uso experimental.
+		El desarrollador (o desarrolladores y colaboradores)
+		no son ni serán responsables por el uso o mal uso de estos programas
+		(aplicaciones, sitio web, códigos fuentes, etc.).
+	</string>
+
+
+
+	<string name="txt_licencia">
+		This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version. \n
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU General Public License for more details. \n
+
+		You should have received a copy of the GNU General Public License
+		along with this program.  If not, see http://www.gnu.org/licenses/ \n
+    </string>
+
+
+
+
+
+
+	<string name="dona">Hacé una Donación :)</string>
+	<string name="sitioweb">Ir al Sitio Web</string>
+	<string name="ir_al_canal_telegram">Ir al Canal de Telegram</string>
+	<string name="txt_donacion">
+        Si te gusta la Aplicación podes colaborar con una donación.\n
+        Recordá que esta Aplicación no posee publicidad, ni patrocinador, ni rastreadores, por lo tanto depende únicamente de la colaboración de los usuarios.
+    </string>
+
+	<string name="txt_colaboracion_desarrolladores">
+        ¿Te gusta las aplicaciones libres?. \n
+        Podés colaborar haciendo donaciones a los desarrolladores para que puedan seguir programando tus aplicaciones favoritas. \n
+    </string>
+
+
+	<string name="txt_ayuda_opciones">
+        Ya vas a ver que no es tan tan TAN complicado, tenés las siguientes opciones: \n
+		\n
+
+	        SMS: \n
+		Es un número de teléfono que podes elegir para que la aplicación envíe coordenadas por SMS. \n
+		Solo se enviara SMS si la opción de Rastreo está habilitado. \n
+		Para evitar gastos te recomiendo NO USAR ESTA OPCIÓN si estás usando el servidor de Seguime,
+		usa ÚNICAMENTE esta opción si estás usando tu propio servidor, o un servidor seguro
+		\n
+		\n
+
+		Telegram ID: \n
+		Es un numero identificador de Telegram, NO ES LA @ID_USUARIO,
+		para utilizar esta opción visita el bot @seguimebot y saludalo,
+		te dará tu numero de ID, luego con ese número el bot podrá enviar coordenadas a esa cuenta de Telegram.
+		\n
+		\n
+
+		Intervalo de Actividad: \n
+		Durante este periodo la Aplicación estará funcionando completamente,
+		localizando coordenadas y realizando conexiones a internet,
+		un valor muy pequeño puede que no logre obtener coordenadas si tenés poca cobertura GPS,
+		 un valor muy alto puede consumir mucha batería   \n
+
+		Para que la aplicación este constantemente encendida (y no por intervalos de tiempo) configura cualquier intervalo de tiempo a 0 (cero)
+		\n
+		 \n
+
+		 Intervalo de Inactividad: \n
+		 Durante este periodo la Aplicación estará descansando,
+		 Un descanso sirve para ahorrar batería, un valor muy pequeño puede que consuma mucha batería,
+		 un valor muy alto entorpecerá la finalidad de la aplicación \n
+		 Para que la aplicación esté constantemente encendida (y no por intervalos de tiempo) configura cualquier intervalo de tiempo a 0 (cero)
+		 \n
+		  \n
+
+		Límite de coordenadas por intervalo: \n
+		 Cuando se encuentre una cantidad límite de coordenadas el sistema dejará de buscar nuevas posiciones hasta el próximo intervalo de actividad,
+		esto permite ahorrar mucha más batería.
+		 \n
+		  \n
+
+		 Rastreo:\n
+		 Cuando esta opción está habilitada la aplicación enviará mensajes por Telegram y SMS cada vez que encuentre una nueva coordenada.
+		  Esta opción se puede habilitar desde el sitio web por lo tanto por tu seguridad y para evitar gastos no configures SMS a menos que estés usando un servidor propio \n
+		 \n
+		\n
+
+
+
+		Espero te sea útil esta ayuda :)
+		\n
+		\n
+		\n
+    </string>
+
+
+
+	<string name="txt_ayuda_regresiva">
+        Ayuda del temporizador: \n
+		\n
+		Te permite programar una cuenta regresiva, una vez activada hará lo siguiente: \n
+		1. Configurara el numero de teléfono para enviar mensajes de texto. \n
+		2. Dejara la aplicación en modo activado, solo se podrá desactivar la aplicación si no hay temporizadores programados. \n
+		3. Enviara una copia de la cuenta regresiva al servidor. \n
+		 \n
+		Al finalizar la cuenta regresiva activara una alarma que hará lo siguiente: \n
+		1. Pondrá la aplicación en modo de rastreo. \n
+		2. Enviara un SMS programado con el texto elegido. \n
+		3. El servidor enviara mensajes por Telegram.  \n
+		 \n
+	</string>
+
+
+
+	<string name="txt_opciones_ayuda_actividad">
+		Estas opciones ayudan a ahorrar batería \n
+	</string>
+	<string name="txt_opciones_ayuda_rastreo">
+		Estas opciones configuran el modo de rastreo \n
+	</string>
+	<string name="txt_opciones_ayuda_sistema">
+		Estas opciones configuran el comportamiento de la aplicación \n
+	</string>
+
+
+
+
+	<string name="txt_firma">
+        Hecho en Argentina por Javier Martínez
+    </string>
+
+	<string name="versionIncompleta_txt">Algunas opciones no están disponibles en esta versión</string>
+
+
+</resources>

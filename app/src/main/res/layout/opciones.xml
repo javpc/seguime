@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado_azul"
+    android:padding="10px"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,3"
+            android:layout_margin="10dp"
+            >
+            <TableRow>
+
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    app:srcCompat="@drawable/battery_half"
+                    android:id="@+id/opciones_categoria_actividad"
+                    android:onClick="clicCategoria"
+                    />
+
+
+
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    app:srcCompat="@drawable/cog"
+                    android:id="@+id/opciones_categoria_sistema"
+                    android:onClick="clicCategoria"
+                    />
+
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    app:srcCompat="@drawable/paw"
+                    android:id="@+id/opciones_categoria_rastreo"
+                    android:onClick="clicCategoria"
+                    />
+
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    app:srcCompat="@drawable/mobile_alt"
+                    android:id="@+id/opciones_categoria_aplicaciones"
+                    android:onClick="clicCategoria"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/opciones_grupo_actividad"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_opciones_ayuda_actividad"
+                    android:textSize="@dimen/texto_grande"
+                    />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:shrinkColumns="0"
+
+                >
+
+
+                <TableRow android:gravity="center_vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/intervalo_actividad"
+                        android:textSize="@dimen/texto" />
+
+                    <EditText
+                        android:id="@+id/opciones_actividad"
+                        android:layout_width="80sp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/borderedondeado"
+                        android:inputType="number"
+                        android:padding="10dp"
+
+
+                        />
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/intervalo_inactividad"
+                        android:textSize="@dimen/texto" />
+
+
+                    <EditText
+                        android:id="@+id/opciones_inactividad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/borderedondeado"
+                        android:inputType="number"
+                        android:padding="10dp" />
+
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/limite_coordenadas"
+                        android:textSize="@dimen/texto" />
+
+
+                    <EditText
+                        android:id="@+id/opciones_limite_coordenadas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/borderedondeado"
+                        android:inputType="number"
+                        android:padding="10dp"
+
+                        />
+
+
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/intervalo_internet"
+                        android:textSize="@dimen/texto" />
+
+
+                    <EditText
+                        android:id="@+id/opciones_internet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/borderedondeado"
+                        android:inputType="number"
+                        android:padding="10dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/opciones_grupo_sistema"
+                android:visibility="gone"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_opciones_ayuda_sistema"
+                    android:textSize="@dimen/texto_grande"
+
+                    />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="1"
+
+                >
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_iniciarConElSistema"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="verificarRegistro" />
+
+                    <TextView
+                        android:id="@+id/opcionesTexto_iniciarconsistema"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="5dp"
+                        android:text="@string/iniciarConElSistema"
+                        android:textSize="@dimen/texto" />
+
+                </TableRow>
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_activarconpantalla"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="verificarRegistro" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/activarconpantalla"
+                        android:textSize="@dimen/texto" />
+
+                </TableRow>
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_enviarInfoConexion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/enviarInfo"
+                        android:textSize="@dimen/texto" />
+
+
+                </TableRow>
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_permitirActivarSMS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/permitirActivarSMS"
+                        android:textSize="@dimen/texto" />
+
+
+                </TableRow>
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_permitirConfigurarSMS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/permitirConfigurarSMS"
+                        android:textSize="@dimen/texto" />
+
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/opciones_grupo_rastreo"
+                android:visibility="gone"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_opciones_ayuda_rastreo"
+                    android:textSize="@dimen/texto_grande"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/id_telegram"
+                    android:textSize="@dimen/texto" />
+
+                <EditText
+                    android:id="@+id/opciones_telegram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/borderedondeado"
+                    android:inputType="phone"
+                    android:padding="10dp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/sms"
+                    android:textSize="@dimen/texto" />
+
+                <EditText
+                    android:id="@+id/opciones_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/borderedondeado"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+
+
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="1"
+
+                >
+
+
+                <TableRow android:gravity="center_vertical">
+
+                    <ToggleButton
+                        android:id="@+id/opciones_rastreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rastreo" />
+
+                    <TextView
+                        android:id="@+id/opcionesTexto_rastreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/rastreo"
+                        android:textSize="@dimen/texto" />
+
+
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/opciones_grupo_aplicaciones"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_opciones_ayuda_aplicaciones"
+                    android:textSize="@dimen/texto_grande"
+                    />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1"
+
+                    >
+
+
+                    <TableRow android:gravity="center_vertical">
+
+                        <ToggleButton
+                            android:id="@+id/opciones_conectarseRedesAbiertas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:enabled="true"
+                            android:onClick="verificarRegistro" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/conectarseRedesAbiertas"
+
+                            android:textSize="@dimen/texto" />
+
+
+                    </TableRow>
+
+
+
+                    <TableRow android:gravity="center_vertical">
+
+                        <ToggleButton
+                            android:id="@+id/opciones_enviarFotografias"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:enabled="true"
+                            android:onClick="verificarRegistro" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/enviarFotografias"
+
+                            android:textSize="@dimen/texto" />
+
+                    </TableRow>
+
+
+
+                    <TableRow android:gravity="center_vertical"
+                        android:visibility="gone"
+                        >
+
+                        <ToggleButton
+                            android:id="@+id/opciones_enviarCoordenadasRutera"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/recibirRutera"
+
+                            android:textSize="@dimen/texto" />
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <include layout="@layout/componente_decision" />
+
+    </LinearLayout>
+</ScrollView>

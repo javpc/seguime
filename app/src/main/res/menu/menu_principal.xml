@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:title="@string/menu_abrir"
+        android:icon="@drawable/navicon_round_blanco"
+        android:id="@+id/menu_principal"
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:title="@string/telegram_bot"
+        android:icon="@drawable/android_person_blanco"
+        android:id="@+id/menu_contactos"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="@string/ayuda"
+        android:icon="@drawable/help_buoy_blanco"
+        android:id="@+id/menu_ayuda"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+</menu>
